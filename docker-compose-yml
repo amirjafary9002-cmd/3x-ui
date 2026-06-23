@@ -12,5 +12,5 @@ services:
       XRAY_VMESS_AEAD_FORCED: "false"
     tty: true
     ports:
-      - "80:2053"
+      - "8080:8080"
     restart: unless-stopped
